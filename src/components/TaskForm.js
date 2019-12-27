@@ -13,7 +13,7 @@ class TaskForm extends Component {
         }
     }
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         if(this.props.taskEditing) {
             this.setState({
                 id : this.props.taskEditing.id,
@@ -23,7 +23,7 @@ class TaskForm extends Component {
         }
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         if(nextProps && nextProps.taskEditing) {
              this.setState({
                 id : nextProps.taskEditing.id,
