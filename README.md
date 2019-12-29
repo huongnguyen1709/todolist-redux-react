@@ -2,4 +2,4 @@
 
 ## React, Redux
 
-Demo [GitHub Pages](https://todolist-redux-react.herokuapp.com/)
+Demo [GitHub Pages](https://todolist-redux-react.netlify.com/)
